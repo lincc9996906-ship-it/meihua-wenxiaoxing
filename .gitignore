@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+!.streamlit/secrets.example.toml
+.env*
+!.env.example
+*.log
+
+# Local verification output and example readings are not source files.
+/preview-*.png
+/browser-*.json
+/live-check.json
+/deepseek-reading-*.md
+*.zip
+.DS_Store
+Thumbs.db
